@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediPro | Shruthi S Nair</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand">Shruthi<span>.</span></a>
+        <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+        <nav class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="experience.html">Experience</a>
+          <a href="projects.html" class="active">Projects</a>
+          <a href="certifications.html">Certifications</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small-hero">
+        <div class="container">
+          <p class="eyebrow">Project detail</p>
+          <h1>MediPro</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container project-detail">
+          <div>
+            <p class="tag">Healthcare AI</p>
+            <p>
+              MediPro is a medical AI project aimed at improving diagnostic support through image analysis and intelligent response systems. The project focuses on chest CT scan classification using deep learning and a supporting multimodal medical risk scoring engine.
+            </p>
+            <p>
+              The platform was designed to combine data-driven medical understanding with practical user support. Its goal was to help process chest CT image data more efficiently, support risk assessment, and provide a simplified way to answer frequent clinical questions through conversational retrieval.
+            </p>
+            <h3>Key highlights</h3>
+            <ul>
+              <li>Used MobileNetV2 transfer learning for chest CT image classification.</li>
+              <li>Reached 96% classification accuracy in training and evaluation tasks.</li>
+              <li>Designed a multimodal risk scoring mechanism to support decision-making.</li>
+              <li>Integrated an NLP-based retrieval chatbot for NSCLC medical inquiries.</li>
+              <li>Focused on making AI support more useful in real healthcare scenarios.</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn btn-primary" href="https://github.com/Shruthi-Suchithra/Medipro" target="_blank" rel="noreferrer">GitHub Repository</a>
+              <a class="btn btn-secondary" href="projects.html">Back to Projects</a>
+            </div>
+          </div>
+          <aside class="detail-panel">
+            <h3>Tech stack</h3>
+            <div class="chip-set">
+              <span>Python</span>
+              <span>Deep Learning</span>
+              <span>TensorFlow</span>
+              <span>MobileNetV2</span>
+              <span>NLP</span>
+              <span>Medical AI</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Shruthi S Nair</p>
+        <div class="footer-links">
+          <a href="https://github.com/Shruthi-Suchithra" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/sruthimadhav/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
